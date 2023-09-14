@@ -1,6 +1,4 @@
-# Project Title
-
-[Short description of the project]
+# AI-data-ops
 
 ## Installation and Deployment
 
