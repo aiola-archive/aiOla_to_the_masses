@@ -1,4 +1,4 @@
-# aiOla_to_the_masses
+# aiOla_to_the_masses (Open source project)
 
 aiola is a cutting-edge technology firm that specializes in integrating Speech-to-Text (STT) AI solutions into traditional, "old-fashioned" industries. Our mission is to foster innovation and efficiency, bridging the gap between legacy systems and modern technological advancements.
 
