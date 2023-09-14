@@ -6,12 +6,6 @@ from typing import List, Dict
 
 logging.basicConfig(level = logging.INFO)
 
-REGION = 'YOUR REGION'
-ACCOUNT = 'YOUR AWS ACCOUNT HERE'
-CLIENT = 'YOUR CLIENT HERE'
-S3_BUCKET = 'Your S3 bucket name'
-
-
 def create_ddb_tables(dynamodb, table_names: List[str], table_keys: List[str]) -> None:
     for table_name, table_key in zip(table_names, table_keys):
         table = dynamodb.create_table(
@@ -48,7 +42,7 @@ def main():
     REGION = 'YOUR REGION'
     ACCOUNT = 'YOUR ACCOUNT'
     CLIENT = 'YOUR CLIENT'
-    S3_BUCKET = f'{CLIENT}-aiola-{ACCOUNT}-inspection-data'
+    S3_BUCKET = 'Your S3 bucket name'
 
     dynamodb = boto3.resource('dynamodb')
 
