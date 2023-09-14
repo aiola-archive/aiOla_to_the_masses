@@ -2,24 +2,15 @@ import boto3
 import json
 import datetime
 import logging
+from typing import List, Dict
 
 logging.basicConfig(level = logging.INFO)
 
-with open('python/env_config.json', 'r') as file:
-    env_config = json.load(file)
+REGION = 'YOUR REGION'
+ACCOUNT = 'YOUR AWS ACCOUNT HERE'
+CLIENT = 'YOUR CLIENT HERE'
+S3_BUCKET = 'Your S3 bucket name'
 
-REGION = env_config['REGION']
-ACCOUNT = env_config['ACCOUNT']
-CLIENT = env_config['CLIENT']
-S3_BUCKET = f'{CLIENT}-aiola-{ACCOUNT}-inspection-data'
-
-import boto3
-import json
-import datetime
-import logging
-from typing import List, Dict
-
-logging.basicConfig(level=logging.INFO)
 
 def create_ddb_tables(dynamodb, table_names: List[str], table_keys: List[str]) -> None:
     for table_name, table_key in zip(table_names, table_keys):
