@@ -9,9 +9,9 @@ This repository contains all the necessary code and documentation to set up and 
 
 This main project is divided into two key sub-projects, each with its own README for specific instructions:
 
-1. **[Daily Tasks Orchestrator](./jobs/README.md)**: A script designed to be a daily monitoring tool for model events. It scans new events, evaluates them against specified conditions, and triggers human review tasks using Amazon SageMaker's Augmented AI (A2I) service if the conditions are met.
+1. **[Daily Tasks Orchestrator](./jobs/readme.md)**: A script designed to be a daily monitoring tool for model events. It scans new events, evaluates them against specified conditions, and triggers human review tasks using Amazon SageMaker's Augmented AI (A2I) service if the conditions are met.
 
-2. **[Deployment Scripts](./deployment/README.md)**: A collection of Python scripts to be executed in a particular order for the initial setup of tables, workflows, and user pools for Amazon SageMaker A2I and AWS Cognito.
+2. **[Deployment Scripts](./deployment/readme.md)**: A collection of Python scripts to be executed in a particular order for the initial setup of tables, workflows, and user pools for Amazon SageMaker A2I and AWS Cognito.
 
 ## Getting Started
 
@@ -25,8 +25,8 @@ This main project is divided into two key sub-projects, each with its own README
 
 Please refer to the README files of the individual sub-projects for detailed installation and configuration instructions:
 
-- [Daily Tasks Orchestrator README](./Daily-Tasks-Orchestrator/README.md)
-- [Deployment Scripts README](./Deployment-Scripts/README.md)
+- [Daily Tasks Orchestrator README](./jobs/readme.md)
+- [Deployment Scripts README](./deployment/readme.md)
 
 ## About aiOla
 
