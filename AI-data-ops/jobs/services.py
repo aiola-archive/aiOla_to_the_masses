@@ -204,5 +204,3 @@ class A2IEventData:
     def show_event_data(self):
         print(f'raw_event_data: {self.raw_event_data}')
         print(f'event_data: {self.event_data}')
-
-# TODO: missing iterator to go over each row in the table
